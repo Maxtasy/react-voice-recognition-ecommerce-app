@@ -1,0 +1,39 @@
+.StoreItem {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+
+.Image {
+  height: 6rem;
+  border-radius: .25rem;
+}
+
+.ItemCategory {
+  text-transform: uppercase;
+  color: grey;
+  margin-top: 1rem;
+}
+
+.ItemName {
+  font-weight: bold;
+  margin-top: 1rem;
+}
+
+.ItemPrice {
+  margin-top: 1rem;
+}
+
+.DetailsButton {
+  font-size: 1.2rem;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  padding: .5rem 1rem;
+  color: white;
+  background-color: purple;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  border-radius: .25rem;
+}
